@@ -5,7 +5,7 @@ Todos estos proyectos fueron reunidos debido a que a la hora de ser desarrollado
 
 Estos son pequeños proyectos a modo de muestra, por lo tanto no existirán actualizaciones de estos proyectos trabajados.
 
-Hay que tener en cuenta que existen proyectos con autoría múltiple, ya que fueron desarrollados en conjunto y son productos de los conocimientos que .
+Hay que tener en cuenta que existen proyectos con autoría múltiple, ya que fueron desarrollados en conjunto y que todos estos proyectos son productos de los conocimientos que tenían los desarrolladores en su tiempo.
 
 Lista de proyectos:
 - Proyecto Condominio (2018):
