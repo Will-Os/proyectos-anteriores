@@ -1,0 +1,1 @@
+start /B /wait C:\wamp\www\daw\scripts\backup.vbs

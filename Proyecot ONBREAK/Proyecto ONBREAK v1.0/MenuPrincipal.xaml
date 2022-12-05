@@ -1,0 +1,288 @@
+﻿<Controls:MetroWindow x:Name="vent_principal" x:Class="Proyecto_ahora_siksi.MenuPrincipal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:Proyecto_ahora_siksi"
+        mc:Ignorable="d"
+        Title="MENU PRINCIPAL | ONBREAK" Height="450" Width="800" ResizeMode="CanMinimize" ShowMaxRestoreButton="False" Icon="icon.png" Background="#FF1190CB" WindowStartupLocation="CenterScreen">
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="421"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TabControl x:Name="tab_principal" HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="646" FontSize="8" SelectionChanged="TabControl_SelectionChanged" Grid.RowSpan="2" Background="#FF1190CB">
+            <TabItem Header="Administración de Clientes" Controls:ControlsHelper.HeaderFontSize="14" Foreground="White">
+                <ScrollViewer x:Name="scrl_admcli" Cursor="Arrow" Background="White" CanContentScroll="True">
+                    <Grid x:Name="admin_cli" Background="White" Height="685">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Agregar Cliente" HorizontalAlignment="Left" Margin="6,10,0,0" VerticalAlignment="Top" FontSize="15" FontWeight="Bold" Foreground="#FF1290CB" FontFamily="Arial Black" Height="27" Width="139"/>
+                        <Label Content="Rut Cliente&#x9;:&#xD;&#xA;" HorizontalAlignment="Left" Margin="5,37,0,0" VerticalAlignment="Top" Foreground="#FF1290CB" FontSize="14" FontFamily="Arial" Height="31" Width="139"/>
+                        <Label Content="Nombre Cliente&#x9;:&#xA;" HorizontalAlignment="Left" Margin="5,67,0,0" VerticalAlignment="Top" Foreground="#FF1290CB" FontSize="14" FontFamily="Arial" Height="31" Width="139"/>
+                        <Label Content="Razón Social&#x9;:&#x9;:&#xA;" HorizontalAlignment="Left" Margin="5,98,0,0" VerticalAlignment="Top" Foreground="#FF1290CB" FontSize="14" FontFamily="Arial" Height="31" Width="139"/>
+                        <Label Content="Mail de Contacto&#x9;:&#x9;" HorizontalAlignment="Left" Margin="6,159,0,0" VerticalAlignment="Top" Foreground="#FF1290CB" FontSize="14" FontFamily="Arial" Height="31" Width="139"/>
+                        <Label Content="Dirección Cliente&#x9;:&#xA;" HorizontalAlignment="Left" Margin="6,128,0,0" VerticalAlignment="Top" Foreground="#FF1290CB" FontSize="14" FontFamily="Arial" Height="31" Width="139"/>
+                        <Label Content="Actividad Cliente&#x9;:&#xA;" HorizontalAlignment="Left" Margin="6,230,0,0" VerticalAlignment="Top" Foreground="#FF1290CB" FontSize="14" FontFamily="Arial" Height="31" Width="139"/>
+                        <Label Content="Tipo Cliente&#x9;:&#xA;" HorizontalAlignment="Left" Margin="6,261,0,0" VerticalAlignment="Top" Foreground="#FF1290CB" FontSize="14" FontFamily="Arial" Height="31" Width="139"/>
+                        <TextBox x:Name="in_rutcli" HorizontalAlignment="Left" Height="26" Margin="145,37,0,0" TextWrapping="Wrap" Controls:TextBoxHelper.Watermark="Ingrese el rut del cliente" VerticalAlignment="Top" Width="471"/>
+                        <TextBox x:Name="in_nomcli" HorizontalAlignment="Left" Height="26" Margin="145,67,0,0" TextWrapping="Wrap" Controls:TextBoxHelper.Watermark="Ingrese el nombre del cliente" VerticalAlignment="Top" Width="471"/>
+                        <TextBox x:Name="in_rscli" HorizontalAlignment="Left" Height="26" Margin="144,95,0,0" TextWrapping="Wrap" Controls:TextBoxHelper.Watermark="Ingrese la razon social del cliente" VerticalAlignment="Top" Width="471"/>
+                        <TextBox x:Name="in_dircli" HorizontalAlignment="Left" Height="26" Margin="145,129,0,0" TextWrapping="Wrap" Controls:TextBoxHelper.Watermark="Ingrese la dirección del cliente" VerticalAlignment="Top" Width="471"/>
+                        <TextBox x:Name="in_mailcli" HorizontalAlignment="Left" Height="26" Margin="145,160,0,0" TextWrapping="Wrap" Controls:TextBoxHelper.Watermark="Ingrese el mail del cliente" VerticalAlignment="Top" Width="471"/>
+                        <TextBox x:Name="in_telcli" HorizontalAlignment="Left" Height="26" Margin="144,195,0,0" TextWrapping="Wrap" Controls:TextBoxHelper.Watermark="Ingrese el teléfono del cliente" VerticalAlignment="Top" Width="471"/>
+                        <ComboBox Name="in_cbox_act" HorizontalAlignment="Left" Margin="145,230,0,0" VerticalAlignment="Top" Width="471" Controls:TextBoxHelper.UseFloatingWatermark="True" Controls:TextBoxHelper.Watermark="Seleccione Actividad">
+                            <ComboBoxItem Content="Agropecuaria"/>
+                            <ComboBoxItem Content="Minería"/>
+                            <ComboBoxItem Content="Manufactura"/>
+                            <ComboBoxItem Content="Comercio"/>
+                            <ComboBoxItem Content="Hotelería"/>
+                            <ComboBoxItem Content="Alimentos"/>
+                            <ComboBoxItem Content="Transporte"/>
+                            <ComboBoxItem Content="Servicios"/>
+                        </ComboBox>
+                        <ComboBox Name="in_cbox_te" HorizontalAlignment="Left" Margin="145,261,0,0" VerticalAlignment="Top" Width="230" Controls:TextBoxHelper.UseFloatingWatermark="True" Controls:TextBoxHelper.Watermark="Seleccione tipo de empresa" SelectionChanged="cbox_te_SelectionChanged">
+                            <ComboBoxItem Content="SPA"/>
+                            <ComboBoxItem Content="EIRL"/>
+                            <ComboBoxItem Content="Limitada"/>
+                            <ComboBoxItem Content="Sociedad Anónima"/>
+                        </ComboBox>
+                        <Button x:Name="btn_registrar" HorizontalAlignment="Left" Margin="390,261,0,0" VerticalAlignment="Top" Width="214" Height="35" Click="btn_registrar_Click">
+                            <Grid Height="47" Width="217">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="95*"/>
+                                    <ColumnDefinition Width="123*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Source="anadir.png" Margin="0,0,61,15" RenderTransformOrigin="0.671,0.309" />
+                                <Label Foreground="White" FontFamily="Arial Black" FontWeight="Bold" FontSize="12" Content="REGISTRAR CLIENTE" Margin="39,4,22,15" Grid.ColumnSpan="2" />
+                            </Grid>
+                        </Button>
+                        <Rectangle Fill="#FF1290CB" Margin="-10,300,10,384" />
+                        <Label Content="Administrar Clientes" HorizontalAlignment="Left" Margin="0,0,0,352" VerticalAlignment="Bottom" FontSize="15" FontWeight="Bold" Foreground="#FF1290CB" FontFamily="Arial Black" Height="27" Width="179"/>
+                        <Label Content="Seleccionar por Rut:&#xA;" HorizontalAlignment="Left" Margin="6,333,0,0" VerticalAlignment="Top" Foreground="#FF1290CB" FontSize="14" FontFamily="Arial" Height="31" Width="139"/>
+                        <ComboBox x:Name="sel_cbox_rut" DisplayMemberPath="rut" Margin="144,333,252,321" FontSize="12" Controls:TextBoxHelper.AutoWatermark="True" Controls:TextBoxHelper.Watermark="Seleccione rut del cliente" IsEditable="False" IsTextSearchEnabled="True"/>
+                        <Button x:Name="btn_modificar" HorizontalAlignment="Left" Margin="389,333,0,0" VerticalAlignment="Top" Width="213" Height="36" Click="btn_modificar_Click">
+                            <Grid>
+                                <Label Foreground="White" Content="MODIFICAR CLIENTE" FontSize="12" FontWeight="Bold" FontFamily="Arial Black" Margin="10,6,-14,-6" />
+                                <Image Source="texto(1).png" Margin="-32,0,144,0" />
+                            </Grid>
+                        </Button>
+                        <Button x:Name="btn_eliminar" HorizontalAlignment="Left" Margin="389,374,0,0" VerticalAlignment="Top" Width="213" Height="34" Click="btn_eliminar_Click">
+                            <Grid>
+                                <Label Foreground="White" FontSize="12" FontFamily="Arial Black" Content="ELIMINAR CLIENTE" Margin="10,0,-10,0"/>
+                                <Image Source="texto.png" Margin="-36,0,142,0" />
+                            </Grid>
+                        </Button>
+                        <Grid x:Name="mod_cli" Visibility="Hidden">
+                            <Label Content="Menu de modificacion de Clientes" HorizontalAlignment="Left" Margin="0,374,0,0" VerticalAlignment="Top" FontSize="15" FontWeight="Bold" Foreground="#FF1290CB" FontFamily="Arial Black"/>
+                            <Label Content="Nombre Cliente&#x9;:&#xA;" HorizontalAlignment="Left" Margin="5,413,0,0" VerticalAlignment="Top" Foreground="#FF1290CB" FontSize="14" FontFamily="Arial" Height="31" Width="139"/>
+                            <Label Content="Razón Social&#x9;:&#x9;:&#xA;" HorizontalAlignment="Left" Margin="5,444,0,0" VerticalAlignment="Top" Foreground="#FF1290CB" FontSize="14" FontFamily="Arial" Height="31" Width="139"/>
+                            <Label Content="Mail de Contacto&#x9;:&#x9;" HorizontalAlignment="Left" Margin="6,505,0,0" VerticalAlignment="Top" Foreground="#FF1290CB" FontSize="14" FontFamily="Arial" Height="31" Width="139"/>
+                            <Label Content="Tel. de Contacto&#x9;:&#x9;" HorizontalAlignment="Left" Margin="5,537,0,0" VerticalAlignment="Top" Foreground="#FF1290CB" FontSize="14" FontFamily="Arial" Height="31" Width="139"/>
+                            <Label Content="Dirección Cliente&#x9;:&#xA;" HorizontalAlignment="Left" Margin="6,474,0,0" VerticalAlignment="Top" Foreground="#FF1290CB" FontSize="14" FontFamily="Arial" Height="31" Width="139"/>
+                            <Label Content="Actividad Cliente&#x9;:&#xA;" HorizontalAlignment="Left" Margin="5,573,0,0" VerticalAlignment="Top" Foreground="#FF1290CB" FontSize="14" FontFamily="Arial" Height="31" Width="139"/>
+                            <Label Content="Tipo Cliente&#x9;:&#xA;" HorizontalAlignment="Left" Margin="5,615,0,0" VerticalAlignment="Top" Foreground="#FF1290CB" FontSize="14" FontFamily="Arial" Height="31" Width="139"/>
+                            <TextBox x:Name="md_nombre" HorizontalAlignment="Left" Height="23" Margin="145,413,0,0" TextWrapping="Wrap" Controls:TextBoxHelper.Watermark="Ingrese el nombre del cliente" VerticalAlignment="Top" Width="471"/>
+                            <TextBox x:Name="md_razonsocial" HorizontalAlignment="Left" Height="23" Margin="144,441,0,0" TextWrapping="Wrap" Controls:TextBoxHelper.Watermark="Ingrese la razon social del cliente" VerticalAlignment="Top" Width="471"/>
+                            <TextBox x:Name="md_dircli"  HorizontalAlignment="Left" Height="23" Margin="145,475,0,0" TextWrapping="Wrap" Controls:TextBoxHelper.Watermark="Ingrese la dirección del cliente" VerticalAlignment="Top" Width="471"/>
+                            <TextBox x:Name="md_mail" HorizontalAlignment="Left" Height="23" Margin="145,506,0,0" TextWrapping="Wrap" Controls:TextBoxHelper.Watermark="Ingrese el mail del cliente" VerticalAlignment="Top" Width="471"/>
+                            <TextBox x:Name="md_tel" HorizontalAlignment="Left" Height="23" Margin="145,538,0,0" TextWrapping="Wrap" Controls:TextBoxHelper.Watermark="Ingrese el telefono del cliente" VerticalAlignment="Top" Width="471"/>
+                            <ComboBox Name="md_cbox_act" HorizontalAlignment="Left" Margin="143,575,0,0" VerticalAlignment="Top" Width="471" Controls:TextBoxHelper.UseFloatingWatermark="True" Controls:TextBoxHelper.Watermark="Seleccione Actividad">
+                                <ComboBoxItem Content="Agropecuaria"/>
+                                <ComboBoxItem Content="Minería"/>
+                                <ComboBoxItem Content="Manufactura"/>
+                                <ComboBoxItem Content="Comercio"/>
+                                <ComboBoxItem Content="Hotelería"/>
+                                <ComboBoxItem Content="Alimentos"/>
+                                <ComboBoxItem Content="Transporte"/>
+                                <ComboBoxItem Content="Servicios"/>
+                            </ComboBox>
+                            <ComboBox x:Name="md_cbox_te" HorizontalAlignment="Left" Margin="143,616,0,0" VerticalAlignment="Top" Width="252" Height="30" Controls:TextBoxHelper.AutoWatermark="True" Controls:TextBoxHelper.Watermark="Seleccione tipo de empresa" IsEditable="False">
+                                <ComboBoxItem>SPA</ComboBoxItem>
+                                <ComboBoxItem>EIRL</ComboBoxItem>
+                                <ComboBoxItem>Limitada</ComboBoxItem>
+                                <ComboBoxItem>Sociedad Anónima</ComboBoxItem>
+                            </ComboBox>
+                            <Button x:Name="btn_confmod" HorizontalAlignment="Left" Margin="401,615,0,0" VerticalAlignment="Top" Width="213" Height="36" Click="btn_confmod_Click">
+                                <Grid>
+                                    <Label Foreground="White" Content="CONFIRMAR MODIFICACION" FontSize="11" FontWeight="Bold" FontFamily="Arial Black" Margin="10,6,-14,-6" />
+                                    <Image Source="texto(1).png" Margin="-32,0,144,0" />
+                                </Grid>
+                            </Button>
+                        </Grid>
+                        <Label Content="Tel. de Contacto&#x9;:&#x9;" HorizontalAlignment="Left" Margin="5,194,0,0" VerticalAlignment="Top" Foreground="#FF1290CB" FontSize="14" FontFamily="Arial" Height="31" Width="139"/>
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Listado de Clientes" Controls:ControlsHelper.HeaderFontSize="14" Foreground="White">
+                <ScrollViewer x:Name="scrl_listcli" Cursor="Arrow" Background="#FFDADADA" CanContentScroll="True">
+                    <Grid x:Name="list_cli" Background="White">
+                        <Border BorderBrush="#FF1190CB" BorderThickness="1" HorizontalAlignment="Left" Height="231" Margin="10,149,0,0" VerticalAlignment="Top" Width="606">
+                            <Grid x:Name="tabla_clientes">
+                                <DataGrid Name="dg_seleccion_cliente" Grid.Row="0" Grid.Column="0" IsReadOnly="True" AutoGenerateColumns="False" FontSize="12" FontFamily="Segoe UI Black" HorizontalAlignment="Center">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="NOMBRE" Binding="{Binding nombre_contacto}" Width="150"></DataGridTextColumn>
+                                        <DataGridTextColumn Header="RUT" Binding="{Binding rut}" Width="150"></DataGridTextColumn>
+                                        <DataGridTextColumn Header="ACTIVIDAD" Binding="{Binding  act_emp}" Width="150"></DataGridTextColumn>
+                                        <DataGridTextColumn Header="TIPO EMPRESA" Binding="{Binding tipo_emp}" Width="150"></DataGridTextColumn>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </Border>
+                        <Label Content="Filtrar Clientes" HorizontalAlignment="Left" Margin="10,3,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF1190CB" FontSize="15" FontFamily="Arial Black"/>
+                        <Label Content="Según RUT&#x9;&#x9;:" HorizontalAlignment="Left" Margin="15,35,0,0" VerticalAlignment="Top" FontSize="12" Background="{x:Null}" Foreground="#FF1190CB" FontFamily="Arial"/>
+                        <Label Content="Según Actividad&#x9;&#x9;:" HorizontalAlignment="Left" Margin="15,73,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF1190CB" FontSize="12" FontFamily="Arial"/>
+                        <Label Content="Según Tipo Empresa&#x9;:" HorizontalAlignment="Left" Margin="15,113,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF1190CB" FontSize="12" FontFamily="Arial"/>
+                        <ComboBox Name="cbox_rut" DisplayMemberPath="rut" HorizontalAlignment="Left" Margin="190,35,0,0" VerticalAlignment="Top" Width="265" Controls:TextBoxHelper.UseFloatingWatermark="True" Controls:TextBoxHelper.Watermark="Seleccione Rut" SelectionChanged="cbox_rut_SelectionChanged"/>
+                        <ComboBox Name="cbox_act" HorizontalAlignment="Left" Margin="190,76,0,0" VerticalAlignment="Top" Width="265" Controls:TextBoxHelper.UseFloatingWatermark="True" Controls:TextBoxHelper.Watermark="Seleccione Actividad" SelectionChanged="cbox_act_SelectionChanged">
+                            <ComboBoxItem Content="Agropecuaria"/>
+                            <ComboBoxItem Content="Minería"/>
+                            <ComboBoxItem Content="Manufactura"/>
+                            <ComboBoxItem Content="Comercio"/>
+                            <ComboBoxItem Content="Hotelería"/>
+                            <ComboBoxItem Content="Alimentos"/>
+                            <ComboBoxItem Content="Transporte"/>
+                            <ComboBoxItem Content="Servicios"/>
+                        </ComboBox>
+                        <ComboBox Name="cbox_te" HorizontalAlignment="Left" Margin="190,112,0,0" VerticalAlignment="Top" Width="265" Controls:TextBoxHelper.UseFloatingWatermark="True" Controls:TextBoxHelper.Watermark="Seleccione tipo de empresa" SelectionChanged="cbox_te_SelectionChanged">
+                            <ComboBoxItem Content="SPA"/>
+                            <ComboBoxItem Content="EIRL"/>
+                            <ComboBoxItem Content="Limitada"/>
+                            <ComboBoxItem Content="Sociedad Anónima"/>
+                        </ComboBox>
+                        <Button x:Name="btn_filtrar" HorizontalAlignment="Left" Margin="480,98,0,0" VerticalAlignment="Top" Width="136" Height="39" Click="btn_filtrar_Click">
+                            <Grid>
+                                <Image Source="filtrar.png" Margin="-31,4,70,6" />
+                                <Label FontFamily="Arial Black" FontSize="12" Foreground="White" Content="FILTRAR" Margin="10,4,-13,6" />
+                            </Grid>
+                        </Button>
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Administración de Contratos" Controls:ControlsHelper.HeaderFontSize="14" Foreground="White">
+                <ScrollViewer x:Name="scrl_admcont" Cursor="Arrow" Background="#FFDADADA" CanContentScroll="True">
+                    <Grid x:Name="grid_admco" Background="White" Height="390">
+                        <Label Content="Agregar Contrato" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="15" FontFamily="Arial Black" Background="{x:Null}" Foreground="#FF1190CB"/>
+                        <Label Content="Seleccione Rut:" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial" Background="{x:Null}" Foreground="#FF1190CB"/>
+                        <ComboBox x:Name="ctr_rut" DisplayMemberPath="rut" HorizontalAlignment="Left" Margin="109,35,0,0" VerticalAlignment="Top" Width="198" Controls:TextBoxHelper.HasText="True" Controls:TextBoxHelper.Watermark="Seleccione rut cliente"/>
+                        <Button x:Name="btn_crearcontrato" HorizontalAlignment="Left" Margin="375,31,0,0" VerticalAlignment="Top" Width="241" Height="35" Click="Button_Click_5">
+                            <Grid>
+                                <Label Foreground="White" FontSize="12" FontFamily="Arial Black" Content="CREAR CONTRATO NUEVO" Margin="19,4,-20,0" Grid.RowSpan="2" />
+                                <Image Source="anadir.png" Margin="-14,0,167,0" Grid.RowSpan="2" />
+                            </Grid>
+                        </Button>
+                        <Border BorderBrush="#FF1190CB" BorderThickness="1,1,1,1" Margin="10,71,10,65">
+                            <Grid x:Name="mod_contrato" Margin="0,-1,0,0" Visibility="Hidden">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Label Content="Label" x:Name="nomb_contrato" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Foreground="#FF1190CB" FontSize="15" FontFamily="Arial Black" Width="294" Height="29"/>
+                                <Label Content="Nombre Cliente&#x9;:" HorizontalAlignment="Left" Margin="10,29,0,0" VerticalAlignment="Top" Foreground="#FF1190CB" FontSize="12" FontFamily="Arial"/>
+                                <Label x:Name="ctr_nomcli" Content="" HorizontalAlignment="Left" Margin="119,29,0,0" VerticalAlignment="Top" Foreground="#FF1190CB" FontSize="12" FontFamily="Arial" Width="185"/>
+                                <Label x:Name="ctr_rscli" Content="" HorizontalAlignment="Left" Margin="119,53,0,0" VerticalAlignment="Top" Foreground="#FF1190CB" FontSize="12" FontFamily="Arial" Width="185"/>
+                                <Label Content="Razón Social&#x9;:" HorizontalAlignment="Left" Margin="10,53,0,0" VerticalAlignment="Top" Foreground="#FF1190CB" FontSize="12"/>
+                                <Label Content="Mod. de evento&#x9;:" HorizontalAlignment="Left" Margin="10,79,0,0" VerticalAlignment="Top" FontSize="12" FontFamily="Arial" Foreground="#FF1190CB"/>
+                                <ComboBox x:Name="ctr_cbox_te" HorizontalAlignment="Left" Margin="124,77,0,0" VerticalAlignment="Top" Width="180" Controls:TextBoxHelper.Watermark="Seleccione tipo de evento" Controls:TextBoxHelper.UseFloatingWatermark="True">
+                                    <ComboBoxItem Content="Light Break"/>
+                                    <ComboBoxItem Content="Journal Break"/>
+                                    <ComboBoxItem Content="Day Break"/>
+                                    <ComboBoxItem Content="Ejecutiva"/>
+                                    <ComboBoxItem Content="Celebración"/>
+                                    <ComboBoxItem Content="Quick Cocktail"/>
+                                    <ComboBoxItem Content="Ambient Cocktail"/>
+                                </ComboBox>
+                                <Label Content="Cantidad Asistentes :" FontSize="12" FontFamily="Arial" Margin="10,110,432,114" Foreground="#FF1190CB" />
+                                <Label Margin="13,161,432,66" Foreground="#FF1190CB" FontSize="12" FontFamily="Arial" Content="Personal Adicional  :" RenderTransformOrigin="0.509,1.038" />
+                                <Button x:Name="btn_confcontrato" HorizontalAlignment="Left" Margin="13,208,0,0" VerticalAlignment="Top" Width="581" Height="35" Click="btn_confcontrato_Click">
+                                    <Grid>
+                                        <Label Foreground="White" FontFamily="Arial Black" FontSize="12" Content="TERMINAR CREACIÓN" Margin="26,4,-26,-5" />
+                                        <Image Source="anadir.png" Margin="-32,0,156,0"/>
+                                    </Grid>
+                                </Button>
+                                <TextBox x:Name="ctr_casistentes" Margin="146,116,300,100" Controls:TextBoxHelper.UseFloatingWatermark="True" Controls:TextBoxHelper.Watermark="Ingrese cantidad asistentes" />
+                                <TextBox x:Name="ctr_cpersonal" Margin="146,160,300,58" Controls:TextBoxHelper.UseFloatingWatermark="True" Controls:TextBoxHelper.Watermark="Ingrese personal adicional" />
+                                <TextBox x:Name="ctr_comentarios" Margin="395,60,10,152" />
+                                <DatePicker x:Name="ctr_fecha_fin" HorizontalAlignment="Left" Margin="467,29,0,0" VerticalAlignment="Top" Width="127" Controls:TextBoxHelper.AutoWatermark="True" Controls:TextBoxHelper.Watermark="Seleccione Fecha"/>
+                                <Label Content="Fecha término de contrato:" HorizontalAlignment="Left" Margin="309,29,0,0" VerticalAlignment="Top" Foreground="#FF1190CB" FontSize="12" FontFamily="Arial"/>
+                                <Label Content="Comentarios:" HorizontalAlignment="Left" Margin="309,58,0,0" VerticalAlignment="Top" Foreground="#FF1190CB" FontSize="12" FontFamily="Arial"/>
+                                <Label Content="Fecha Hora Inicio:" HorizontalAlignment="Left" Margin="309,116,0,0" VerticalAlignment="Top" Foreground="#FF1190CB" FontSize="12" FontFamily="Arial"/>
+
+                                <Label Content="Fecha Hora Fin:" HorizontalAlignment="Left" Margin="320,151,0,0" VerticalAlignment="Top" Foreground="#FF1190CB" FontSize="12" FontFamily="Arial"/>
+                                <Controls:DateTimePicker x:Name="fhorainicio" Margin="421,114,10,113" Controls:TextBoxHelper.Watermark="Seleccione FyH"/>
+                                <Controls:DateTimePicker x:Name="fhorafin" Margin="421,151,10,76" Controls:TextBoxHelper.Watermark="Seleccione FyH"/>
+                            </Grid>
+                        </Border>
+                        <Label Content="Terminación de contratos" HorizontalAlignment="Left" Margin="10,325,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.448,0.524" Foreground="#FF1190CB" FontFamily="Arial Black" FontSize="15"/>
+                        <Label Content="Seleccione Contrato:" HorizontalAlignment="Left" Margin="10,352,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF1190CB" FontSize="12" FontFamily="Arial"/>
+                        <ComboBox x:Name="cbox_terminarcontrato" DisplayMemberPath="numero" HorizontalAlignment="Left" Margin="131,350,0,0" VerticalAlignment="Top" Width="176" Controls:TextBoxHelper.HasText="True" Controls:TextBoxHelper.Watermark="Seleccione contrato"/>
+                        <Button x:Name="btn_terminarcontrato" HorizontalAlignment="Left" Margin="375,345,0,0" VerticalAlignment="Top" Width="241" Height="35" Click="btn_terminarcontrato_Click">
+                            <Grid>
+                                <Label Foreground="White" FontSize="12" FontFamily="Arial Black" Content="TERMINAR CONTRATO" Margin="41,5,-34,0" />
+                                <Image Source="texto.png" Margin="-28,0,150,0"/>
+                            </Grid>
+                        </Button>
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Listado de Contratos" Controls:ControlsHelper.HeaderFontSize="14" Foreground="White">
+                <ScrollViewer x:Name="scrl_listco" Cursor="Arrow" Background="#FFDADADA" CanContentScroll="True">
+                    <Grid x:Name="grid_listco" Background="White">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Filtrar Contratos" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="15" FontFamily="Arial Black" Foreground="#FF1190CB" Height="27" Width="146"/>
+                        <Label Content="Según RUT Cliente&#x9;:" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Foreground="#FF1190CB" FontSize="12" FontFamily="Arial" Width="156" Height="24"/>
+                        <Label Content="Según N°Contrato&#x9;:" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" Foreground="#FF1190CB" FontSize="12" FontFamily="Arial" Width="156" Height="24"/>
+                        <Label Content="Según tipo contrato&#x9;:" HorizontalAlignment="Left" Margin="10,122,0,0" VerticalAlignment="Top" Width="156" Background="{x:Null}" Foreground="#FF1190CB" FontSize="12" FontFamily="Arial" Height="24"/>
+                        <ComboBox x:Name="flt_cont_rut"  DisplayMemberPath="rut" HorizontalAlignment="Left" Margin="171,42,0,0" VerticalAlignment="Top" Width="265" Height="26" Controls:TextBoxHelper.HasText="True" Controls:TextBoxHelper.Watermark="Seleccione RUT" SelectionChanged="flt_cont_rut_SelectionChanged"/>
+                        <ComboBox x:Name="flt_cont_numero" DisplayMemberPath="numero" HorizontalAlignment="Left" Margin="171,80,0,0" VerticalAlignment="Top" Width="265" Height="26" Controls:TextBoxHelper.Watermark="Seleccione Contrato" SelectionChanged="flt_cont_numero_SelectionChanged"/>
+                        <ComboBox x:Name="flt_cont_te" HorizontalAlignment="Left" Margin="171,122,0,0" VerticalAlignment="Top" Width="265" Height="26" Controls:TextBoxHelper.Watermark="Seleccione tipo evento" SelectionChanged="flt_cont_te_SelectionChanged">
+                            <ComboBoxItem Content="Coffee Break"/>
+                            <ComboBoxItem Content="Cocktail"/>
+                            <ComboBoxItem Content="Cenas"/>
+                        </ComboBox>
+                        <Button x:Name="btn_filtrarcont" Margin="480,109,10,0" VerticalAlignment="Top" Height="39" Click="btn_filtrarcont_Click">
+                            <Grid>
+                                <Image Source="filtrar.png" Margin="-31,4,70,6" />
+                                <Label FontFamily="Arial Black" FontSize="12" Foreground="White" Content="FILTRAR" Margin="10,4,-13,6" />
+                            </Grid>
+                        </Button>
+                        <Border BorderBrush="#FF1190CB" BorderThickness="1" HorizontalAlignment="Left" Height="220" Margin="10,160,0,0" VerticalAlignment="Top" Width="606">
+                            <DataGrid x:Name="dg_tbl_contrato"  FontSize="12" FontFamily="Segoe UI Black" HorizontalAlignment="Right" Margin="0,1,1,1" Width="602" IsReadOnly="True" AutoGenerateColumns="False">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="N°CONTRATO" Binding="{Binding numero}" Width="110"></DataGridTextColumn>
+                                    <DataGridTextColumn Header="RUT CLIENTE" Binding="{Binding rutcliente}" Width="110"></DataGridTextColumn>
+                                    <DataGridTextColumn Header="TIPO EVENTO" Binding="{Binding  id_tipoevento}" Width="115"></DataGridTextColumn>
+                                    <DataGridTextColumn Header="TIPO MODALIDAD" Binding="{Binding id_modalidad}" Width="133"></DataGridTextColumn>
+                                    <DataGridTextColumn Header="VALOR CONTRATO" Binding="{Binding valor}" Width="135"></DataGridTextColumn>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Border>
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+            <Button Content="Button" Height="100" Width="75" BorderBrush="#FF1190CB"/>
+        </TabControl>
+        <Image HorizontalAlignment="Left" Height="139" VerticalAlignment="Top" Width="136" Source="white_logo_transparent_background.png" Margin="651,0,0,0" Grid.RowSpan="2"/>
+        <Button x:Name="btn_cerrarsesion" HorizontalAlignment="Left" Margin="651,357,0,0" VerticalAlignment="Top" Width="139" Height="54" Click="Button_Click" BorderBrush="#FF707070" Grid.Row="1">
+            <Grid>
+                <Image Source="salir.png" Margin="-21,10,70,11" Grid.RowSpan="2" />
+                <Label Content="CERRAR SESION" Foreground="White" FontFamily="Arial Black" FontWeight="Bold" Margin="0,13,-38,4" FontSize="10" Grid.RowSpan="2" HorizontalAlignment="Right" Width="108" />
+            </Grid>
+        </Button>
+        <Border BorderBrush="#FF1190CB" BorderThickness="1" HorizontalAlignment="Left" Height="419" Margin="646,0,0,0" VerticalAlignment="Top" Width="1" Grid.RowSpan="2"/>
+        <Button x:Name="btn_luz" HorizontalAlignment="Left" Margin="651,287,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="139" Height="53" Click="Button_Click_4">
+            <Grid>
+                <Label Content="ALTERNAR LUZ" Foreground="White" FontFamily="Arial Black" Margin="20,13,-19,7" FontSize="11"/>
+                <Image Source="iluminacion.png" Margin="-15,6,80,7"/>
+            </Grid>
+        </Button>
+        <TextBlock x:Name="txt_errores" HorizontalAlignment="Left" Margin="652,139,0,0" Grid.RowSpan="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="143" Width="132"/>
+    </Grid>
+</Controls:MetroWindow>

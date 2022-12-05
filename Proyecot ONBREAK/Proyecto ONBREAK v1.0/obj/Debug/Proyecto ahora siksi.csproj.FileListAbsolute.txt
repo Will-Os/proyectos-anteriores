@@ -1,0 +1,159 @@
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto ahora siksi.csprojAssemblyReference.cache
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\obj\Debug\MainWindow.baml
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\obj\Debug\Resources\Icons.baml
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\obj\Debug\MainWindow.g.cs
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\obj\Debug\App.g.cs
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto ahora siksi_MarkupCompile.cache
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto ahora siksi.g.resources
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto_ahora_siksi.Properties.Resources.resources
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto ahora siksi.csproj.GenerateResource.cache
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto ahora siksi.csproj.CoreCompileInputs.cache
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\bin\Debug\Proyecto ahora siksi.exe.config
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\bin\Debug\Proyecto ahora siksi.exe
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\bin\Debug\Proyecto ahora siksi.pdb
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\bin\Debug\ControlzEx.dll
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\bin\Debug\MahApps.Metro.dll
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\bin\Debug\ControlzEx.pdb
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\bin\Debug\MahApps.Metro.pdb
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\bin\Debug\MahApps.Metro.xml
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto ahora siksi_MarkupCompile.lref
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto ahora siksi.csproj.CopyComplete
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto ahora siksi.exe
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto ahora siksi.pdb
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\obj\Debug\App.baml
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\obj\Debug\Menuprincipal.g.cs
+C:\Users\Khrenxx\Desktop\proyecto\Proyecto ahora siksi\obj\Debug\Menuprincipal.baml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\bin\Debug\Proyecto ahora siksi.exe.config
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\bin\Debug\Proyecto ahora siksi.exe
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\bin\Debug\Proyecto ahora siksi.pdb
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\bin\Debug\ControlzEx.dll
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\bin\Debug\MahApps.Metro.dll
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\bin\Debug\ControlzEx.pdb
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\bin\Debug\MahApps.Metro.pdb
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\bin\Debug\MahApps.Metro.xml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto ahora siksi.csprojAssemblyReference.cache
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\obj\Debug\Resources\Icons.baml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\obj\Debug\MainWindow.g.cs
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\obj\Debug\MenuPrincipal.g.cs
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\obj\Debug\App.g.cs
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto ahora siksi_MarkupCompile.cache
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto ahora siksi_MarkupCompile.lref
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\obj\Debug\App.baml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\obj\Debug\MainWindow.baml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\obj\Debug\MenuPrincipal.baml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto ahora siksi.g.resources
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto_ahora_siksi.Properties.Resources.resources
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto ahora siksi.csproj.GenerateResource.cache
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto ahora siksi.csproj.CoreCompileInputs.cache
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto ahora siksi.csproj.CopyComplete
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto ahora siksi.exe
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ahora siksi\obj\Debug\Proyecto ahora siksi.pdb
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\bin\Debug\Proyecto ahora siksi.exe.config
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\bin\Debug\Proyecto ahora siksi.exe
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\bin\Debug\Proyecto ahora siksi.pdb
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\bin\Debug\ControlzEx.dll
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\bin\Debug\MahApps.Metro.dll
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\bin\Debug\ControlzEx.pdb
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\bin\Debug\MahApps.Metro.pdb
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\bin\Debug\MahApps.Metro.xml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\obj\Debug\Proyecto ahora siksi.csprojAssemblyReference.cache
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\obj\Debug\Resources\Icons.baml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\obj\Debug\MainWindow.g.cs
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\obj\Debug\MenuPrincipal.g.cs
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\obj\Debug\App.g.cs
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\obj\Debug\Proyecto ahora siksi_MarkupCompile.cache
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\obj\Debug\Proyecto ahora siksi_MarkupCompile.lref
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\obj\Debug\App.baml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\obj\Debug\MainWindow.baml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\obj\Debug\MenuPrincipal.baml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\obj\Debug\Proyecto ahora siksi.g.resources
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\obj\Debug\Proyecto_ahora_siksi.Properties.Resources.resources
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\obj\Debug\Proyecto ahora siksi.csproj.GenerateResource.cache
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\obj\Debug\Proyecto ahora siksi.csproj.CoreCompileInputs.cache
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\obj\Debug\Proyecto ahora siksi.csproj.CopyComplete
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\obj\Debug\Proyecto ahora siksi.exe
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK\obj\Debug\Proyecto ahora siksi.pdb
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\BaseDatos\bd_onbreak.mdf
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\BaseDatos\bd_onbreak_log.ldf
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\bd_onbreak.mdf
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\bd_onbreak_log.ldf
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\Proyecto ahora siksi.exe.config
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\Proyecto ahora siksi.exe
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\Proyecto ahora siksi.pdb
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\ControlzEx.dll
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\EntityFramework.dll
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\MahApps.Metro.dll
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\ControlzEx.pdb
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\EntityFramework.xml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\MahApps.Metro.pdb
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\MahApps.Metro.xml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\Proyecto ahora siksi.csprojAssemblyReference.cache
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\Resources\Icons.baml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\MainWindow.g.cs
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\MenuPrincipal.g.cs
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\App.g.cs
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\Proyecto ahora siksi_Content.g.cs
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\Proyecto ahora siksi_MarkupCompile.cache
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\Proyecto ahora siksi_MarkupCompile.lref
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\App.baml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\MainWindow.baml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\MenuPrincipal.baml
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\Proyecto ahora siksi.g.resources
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\Proyecto_ahora_siksi.Properties.Resources.resources
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\Proyecto ahora siksi.csproj.GenerateResource.cache
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\Proyecto ahora siksi.csproj.CoreCompileInputs.cache
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\Proyecto ahora siksi.csproj.CopyComplete
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\Proyecto ahora siksi.exe
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\obj\Debug\Proyecto ahora siksi.pdb
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\WpfAnimatedGif.dll
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\WpfAnimatedGif.pdb
+C:\Users\Wilo\Desktop\ACTIVIDADES DSW\Proyecto semestral\proyecto\Proyecto ONBREAK v0.7\bin\Debug\WpfAnimatedGif.xml
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\BaseDatos\bd_onbreak.mdf
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\BaseDatos\bd_onbreak_log.ldf
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\bd_onbreak.mdf
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\bd_onbreak_log.ldf
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\Proyecto ahora siksi.exe.config
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\Proyecto ahora siksi.exe
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\Proyecto ahora siksi.pdb
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\ControlzEx.dll
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\EntityFramework.dll
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\MahApps.Metro.dll
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\WpfAnimatedGif.dll
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\ControlzEx.pdb
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\EntityFramework.xml
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\MahApps.Metro.pdb
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\MahApps.Metro.xml
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\WpfAnimatedGif.pdb
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\bin\Debug\WpfAnimatedGif.xml
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\Proyecto ahora siksi.csproj.AssemblyReference.cache
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\Resources\Icons.baml
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\MainWindow.g.cs
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\MenuPrincipal.g.cs
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\App.g.cs
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\Proyecto ahora siksi_Content.g.cs
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\Proyecto ahora siksi_MarkupCompile.cache
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\Proyecto ahora siksi_MarkupCompile.lref
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\App.baml
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\MainWindow.baml
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\MenuPrincipal.baml
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\Proyecto ahora siksi.g.resources
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\Proyecto_ahora_siksi.Properties.Resources.resources
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\Proyecto ahora siksi.csproj.GenerateResource.cache
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\Proyecto ahora siksi.csproj.CoreCompileInputs.cache
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\Proyecto ahora siksi.csproj.CopyComplete
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\Proyecto ahora siksi.exe
+C:\Users\Wilo\Desktop\Proyectos Viejos\Proyecto ONBREAK v1.0\obj\Debug\Proyecto ahora siksi.pdb

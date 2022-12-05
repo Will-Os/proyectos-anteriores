@@ -1,0 +1,32 @@
+﻿<Controls:MetroWindow x:Class="Proyecto_ahora_siksi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:Proyecto_ahora_siksi"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        Title="LOGIN | OnBreak" Height="450" Width="800" Background="Gainsboro" BorderBrush="Black" WindowStartupLocation="CenterScreen" WindowState="Normal" ShowMaxRestoreButton="False" Icon="icon.png">
+    <Grid x:Name="grid_menu" Background="White">
+        <Image x:Name="img_menu" Margin="346,0,0,0" Stretch="Fill" Source="Imagenes/white_logo_color_background.jpg">
+            <Image.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="#FF1290CB" Offset="1"/>
+                </LinearGradientBrush>
+            </Image.OpacityMask>
+        </Image>
+        <Button x:Name="btn_ingresar" Margin="80,343,0,0" Foreground="White" BorderBrush="{x:Null}" Click="Button_Click" Height="66" VerticalAlignment="Top" HorizontalAlignment="Left" Width="198" Background="#FF1290CB">
+            <Grid>
+                <Image x:Name="img_boton" Source="multimedia.png" Margin="-62,10,73,12" />
+                <Image x:Name="gif_boton" gif:ImageBehavior.AnimatedSource="cargando.gif" Margin="-62,1,62,-1" Visibility="Hidden" Source="cargando.gif"/>
+                <Label Content="INGRESAR" Margin="0,18,-53,18" FontSize="15" FontFamily="Arial Black" FontWeight="Bold" Foreground="White" />
+            </Grid>
+        </Button>
+        <Label FontFamily="Arial Black" Content="Nombre de usuario:" Margin="0,15,654,378" Foreground="#FF1290CB" />
+        <TextBox x:Name="UserText" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Ingrese su usuario" Margin="0,43,0,0" TextWrapping="Wrap" BorderBrush="{x:Null}" HorizontalAlignment="Left" Width="341" Height="32" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="UserPass" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Ingrese su constraseña" Margin="0,106,0,0" BorderBrush="{x:Null}" HorizontalAlignment="Left" Width="341" Height="30" VerticalAlignment="Top"/>
+        <Label FontFamily="Arial Black" Content="Contraseña:" Margin="0,75,667,315" Foreground="#FF1290CB" />
+        <Label x:Name="msg_error" FontFamily="Arial" Content="Error al iniciar sesión, intente con otras credenciales" Margin="0,136,448,233" Foreground="#FFFF0808" FontSize="10" Visibility="Hidden"/>
+    </Grid>
+</Controls:MetroWindow>

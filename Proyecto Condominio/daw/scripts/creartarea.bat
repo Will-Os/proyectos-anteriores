@@ -1,0 +1,1 @@
+schtasks /CREATE /TN "Envio" /TR c:\wamp\www\daw\scripts\enviarcorreo.bat /SC monthly /mo 1 /d 21 /ST 20:12:00 /F

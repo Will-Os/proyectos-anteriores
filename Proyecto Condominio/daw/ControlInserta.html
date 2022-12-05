@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="UTF-8"/>
+<style type="text/css">
+
+#logo {
+    background-image: url(../img/aconcagua-logo.png);
+    width: 180px;
+    height: 45px;
+    background-size: 190px 40px;
+    -o-transition: .5s;
+    transition: .5s;
+	float: left;
+
+header {
+display: block;
+}
+h3{
+margin-top: 50;
+margin-left: 400px;
+}
+</style>
+<header>
+<div >
+<img src="https://www.iaconcagua.com/Content/img/aconcagua-logo.png" id="logo"></img>
+<h3  style="margin-left: 500px;">CONDOMINIOS BALCÓN DEL NORTE</h3>
+
+</div>
+</header>
+<head>
+<br>
+<form action="inserta.php" method="post">
+    RUT: <input type="text" name="rut_visita"><br>
+    NOMBRE: <input type="text" name="nom_visita"><br>
+    DEPTO. VISITA: <input type="text" name="depto_visita"><br>
+    NUM_ESTACIONAMIENTO: <input type="text" name="num"><br>
+    <input type="submit" value="CONFIRMAR DATOS"><br>
+</form>
+</head>
+
+<body>
+<?php
+$con=mysqli_connect("localhost","root","","condominio") or die ("PROBLEMAS CON LA BASE DE DATOS");
+$registr=mysqli_query($con,"select * from estacionamiento order by num") or die (mysqli_error($con));
+echo "<center><table border=8 cellpadding=6 cellspacing=6></center>";
+echo '<tr>';
+echo '<th colspan=5><h4><i>ESTACIONAMIENTOS</i></h4></th>';
+echo '</tr>';
+echo '<br>';
+echo '<br>';
+echo '<tr>';
+echo '<th>N° Estacionamiento</th>';
+echo '<th>Estado</th>';
+echo '<th>Nom_visita</th>';
+echo '<th>Rut_visita</th>';
+echo '<th>Depto_visita</th>';
+echo '</tr>';
+while($re=mysqli_fetch_array($registr))
+{
+echo '<tr>';
+echo '<td>';
+echo $re['num'];
+echo '</td>';
+echo '<td>';
+echo $re['estado'];
+echo '</td>';
+echo '<td>';
+echo $re['nom_visita'];
+echo '</td>';
+echo '<td>';
+echo $re['rut_visita'];
+echo '</td>';
+echo '<td>';
+echo $re['depto_visita'];
+echo '</td>';
+echo '</tr>';
+}
+?>
+</body>
+</html>
